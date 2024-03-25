@@ -60,6 +60,31 @@
             <Button Grid.Row="3" Grid.Column="1"
                     Style="{StaticResource Botaoclaro}"
                     x:Name="num6" Text="6" Clicked="num6_Clicked"/>
+                
+            <Button Grid.Row="3" Grid.Column="3"
+                    Style="{StaticResource Botaoescuro}"
+                    x:Name="menos" Text="-" Clicked="menos_Clicked"/>
+    
+            <Button Grid.Row="4" Grid.Column="0"
+                    Style="{StaticResource Botaoclaro}"
+                    x:Name="num1" Text="1" Clicked="num1_Clicked"/>
+    
+            <Button Grid.Row="4" Grid.Column="1"
+                    Style="{StaticResource Botaoclaro}"
+                    x:Name="num2" Text="2" Clicked="num2_Clicked"/>
+
+            <Button Grid.Row="4" Grid.Column="2"
+                    Style="{StaticResource Botaoclaro}"
+                    x:Name="num3" Text="3" Clicked="num3_Clicked"/>
+
+            <Button Grid.Row="4" Grid.Column="3"
+                    Style="{StaticResource Botaoescuro}"
+                    x:Name="mais" Text="+" Clicked="mais_Clicked"/>
+                
+
+
+
+
 
 
 
